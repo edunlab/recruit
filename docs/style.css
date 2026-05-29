@@ -166,6 +166,7 @@ ul, ol {
 .gradient-text {
     background: var(--grad-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -306,7 +307,7 @@ ul, ol {
 }
 
 .hero-title {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     font-weight: 900;
     line-height: 1.25;
     letter-spacing: -0.03em;
@@ -316,6 +317,7 @@ ul, ol {
 .hero-title .gradient-text {
     background: linear-gradient(90deg, #818cf8 0%, #2dd4bf 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -964,7 +966,7 @@ footer {
     }
     
     .hero-title {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
     }
     
     .hero-subtitle {
