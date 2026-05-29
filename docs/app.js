@@ -92,4 +92,20 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // 4. PDF Print / Save Functionality
+    const btnPrint = document.getElementById('btnPrint');
+    const fabPrint = document.getElementById('fabPrint');
+
+    const handlePrint = (e) => {
+        e.preventDefault();
+        window.print();
+    };
+
+    if (btnPrint) {
+        btnPrint.addEventListener('click', handlePrint);
+    }
+    if (fabPrint) {
+        fabPrint.addEventListener('click', handlePrint);
+    }
 });
